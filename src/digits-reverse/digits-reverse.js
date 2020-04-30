@@ -1,5 +1,5 @@
 'use strict';
-
+// берем число и отрезаем по одной цифре 
 window.digitsReverse = (n) => {
   let num = n;
   let result = 0;
