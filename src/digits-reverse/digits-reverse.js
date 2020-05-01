@@ -1,5 +1,6 @@
 'use strict';
 
+
 // берем число и отрезаем по одной цифре
 window.digitsReverse = (n) => {
   let num = n;
@@ -8,6 +9,6 @@ window.digitsReverse = (n) => {
     result = (result * 10) + (num % 10);
     num = Math.floor(num / 10);
   }
-
+  // вернем значение
   return result;
 };
